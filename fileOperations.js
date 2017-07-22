@@ -1,7 +1,7 @@
 var fs = require('fs');
 var buff = new Buffer(100000);
 
-fs.open('test_file1.txt', 'r', (err, fd) => {
+fs.open('test_file.txt', 'r', (err, fd) => {
   if (err) {
     console.error("Got error while opening file: " + JSON.stringify(err));
   }
